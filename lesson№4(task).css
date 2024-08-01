@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+main {
+    width: 65%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f0fff8;
+}
+
+td {
+    border: 1px solid #80ced6;
+    padding: 10px;
+}
+
+fieldset {
+    border: 1px solid #80ced6;
+    padding: 30px;
+    background-color: #f0fff8;
+    border-radius: 10px;
+}
+.main{
+    padding: 17px;
+}
+ul{
+    padding-left: 16px;
+}
+
+h3 {
+    font-weight: 900;
+}
