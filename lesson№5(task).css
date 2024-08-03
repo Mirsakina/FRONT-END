@@ -33,12 +33,11 @@ fieldset {
     border-radius: 10px;
 }
 .main{
-    padding: 17px;
+    padding: 16px;
 }
 ul{
-    padding-left: 16px;
+    padding-inline: 13px;
 }
-
 h3 {
     font-weight: 900;
 }
