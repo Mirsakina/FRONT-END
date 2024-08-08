@@ -1,0 +1,18 @@
+.flex{
+ display: flex;
+ flex-direction: row; /*для передвижения по оси(x row) (y column)имеет значения- column,row,column-reverse,row-reverse*/
+ justify-content: center; /*-для выравнивания по оси (x) main axis имеет значения- flex-start,flex-end,center,space-between,space-around*/
+ align-items: center; /*-для выравнивания по оси (y) main cross axis имеет значения- flex-start,flex-end,center,space-between,space-around*/
+ flex-wrap: wrap;/*для перемещения вниз если элементов много*/
+}
+.name{
+    padding: 40px;
+    font-size: 25px;
+    border: 1px solid black;
+    flex-basis: 20%; /*размер относитель главной оси(если х ширина,если у высота имеет значение = в процентах*/
+}
+.name1{
+    order:3;/*позволяет перемещать по мере значения order=0 можно задать значения = любое число*/
+    align-self: center;/*позволяет перемещать отдельные элементы*/
+    flex-shrink: 200px;/*отвечает за то как быстро элемент будет ужиматся при сокращении пространства значения = в пикселях*/
+}

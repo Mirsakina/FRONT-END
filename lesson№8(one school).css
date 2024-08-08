@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+::selection{
+    background-color: black;
+    color:white;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 800;
+    margin: 0.7em;
+}
+.title{
+    max-width: 600px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5em;
+    margin-bottom: 3em;
+}
+article{
+    max-width: 1120px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #e9ecef;
+}
+img{
+    position: relative;
+    margin-top: -100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+h3{
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+}
+.teacher{
+    margin-bottom: 1em;
+    color: #adb5bd;
+}
+p{
+    text-align: center;
+    margin-bottom: 1em;
+}
