@@ -34,7 +34,6 @@ article{
     width: 80%;
     margin: auto;
     display: flex;
-    flex-direction: row;
     gap: 30px;
 }
 div{
