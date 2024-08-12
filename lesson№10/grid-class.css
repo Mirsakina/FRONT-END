@@ -1,0 +1,29 @@
+.container{
+    width: 70%;
+    height: 640px;
+    max-width: 1140px;
+    margin-inline: auto;
+    border: 1px solid red;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr 1.5fr 1fr;
+    grid-template-rows: repeat(3,200px);
+    gap: 20px;
+}
+.item{
+    background-color: brown;
+    color: #fff;
+    font-size: 45px;
+}
+.item:first-child{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item:nth-child(2){
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.item:nth-child(3){
+    grid-row: 2/4;
+}
