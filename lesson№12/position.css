@@ -1,0 +1,116 @@
+body{
+    color: gray;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: transparent;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 1.5rem 7rem;
+}
+.logo{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    li.active {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 3px;
+    }
+}
+
+.contact-btn,.intro-desc button,.intro-form button{
+    background-color: #7971ea;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    border-radius: 30px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3sn;
+    color: #fff;
+
+    &:hover{
+        background-color: #4f45e3;
+    }
+}
+#intro{
+    height: 150vh;
+    background: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;/*oz yerinden asli sifir ele oz yeridi*/
+}
+.overlay{
+    background-color: #343a40;
+    opacity: 0.9;
+    position: absolute;/*ustte olur yerini itirir sehifeye nezeren peremeshayetsya top left right bottomla ishleyir*/    inset: 0;
+}
+.container{
+    width: 73%;
+    height: 78%;
+    max-width: 1140px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 5fr 1fr 4fr;
+    position: relative;
+    z-index: 1;
+    align-items: center; 
+}
+.intro-desc{
+    h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 1.5rem;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+    button{
+        color: #fff;
+        padding: 1rem 3rem;
+        font-size: 12px;
+    }
+}
+.intro-form{
+    grid-column-start: 3;
+    padding: 40px;
+    background: #fff;
+    border-radius: 7px;
+    h2{
+        color: #000;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    input{
+    display: block;
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+
+    &:focus{
+        border-color: #7971ea;
+    }
+    }
+}
