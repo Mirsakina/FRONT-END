@@ -1,3 +1,7 @@
+body{
+    background-color: #1a9ac9;
+    height: 100vh;
+}
 h1{
     font-family: Verdana, sans-serif;
     font-weight: 900;
@@ -7,10 +11,6 @@ h1{
     text-align: center;
     margin-top: 70px;
     margin-bottom: 20px;
-}
-body{
-    background-color: #1a9ac9;
-    height: 100vh;
 }
 .container{
     width: 60%;
