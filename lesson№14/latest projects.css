@@ -45,7 +45,6 @@ body{
             .image {
                 transition: 0.8s ease-in-out;
                 backface-visibility: hidden;
-
                 height: 100%;
 
                 img {
