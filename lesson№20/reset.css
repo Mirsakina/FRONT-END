@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+button{
+    color: inherit;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+input{
+    outline: none;
+}
